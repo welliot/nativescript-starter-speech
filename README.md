@@ -1,2 +1,2 @@
-# nativescript-starter-speech
-Starter app with speech tab added (note speech gets logged to console)
+# nativescript-starter-app
+Starter App in nativescript for experimentation

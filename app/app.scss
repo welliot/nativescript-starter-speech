@@ -1,0 +1,21 @@
+// Import app variables
+@import 'app-variables';
+
+// Import the theme’s main ruleset - both index and platform specific.
+@import '~nativescript-theme-core/scss/index';
+@import '~nativescript-theme-core/scss/platforms/index.android';
+
+// Import common styles
+@import 'app-common';
+
+@keyframes spin {
+    from { transform: rotate(0); }
+    to { transform: rotate(360); }
+}
+Image {
+    animation-name: spin; 
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
